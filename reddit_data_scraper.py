@@ -1,9 +1,8 @@
 import praw
 import csv
 from datetime import datetime
-# reddit = praw.Reddit(client_id="K0FzspZ-dxIF5Q", client_secret="ToUYkRM3Rk75XG_-wPSModVJAt4", user_agent="DepressionEDA")
 
-reddit = praw.Reddit(client_id="qZY5yqGlYPb5DQ", client_secret="J7hhOzAPUQvoIiQLIuleGRGnyik", username="rishikesh1419", password="Realmadrid141903!", user_agent="DepressionEDA")
+#Create reddit object here using reddit=praw.Reddit(client_id=, client_secret=, username=, password=, user_agent=)
 
 subreddit = reddit.subreddit("askreddit")
 
